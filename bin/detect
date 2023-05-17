@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# just testing now, always true
+exit 0

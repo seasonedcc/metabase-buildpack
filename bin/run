@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export MB_JETTY_PORT=$PORT 
+export MB_DB_TYPE=postgres
+#export MB_DB_CONNECTION_URI=jdbc:postgresql://user:pass@host:port/unison_metabase
+
+exec java -jar --enable-preview ./metabase.jar 
